@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
+    namespace = "org.team1672.reefscape_scoring_robotbirds"
+
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
